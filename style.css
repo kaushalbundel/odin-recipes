@@ -1,21 +1,39 @@
-* {
+p, ul, ol {
     font-family:"Courier New", monospace;
 }
 
+h2, h3 {
+    font-family: 'Courier New', Courier, monospace;
+}
 h1 {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
-    font-weight:600;
-    align-content: center;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .basecolor{
-    background-color:#ada8a4;
+    background-color: white;
 }
 
 .links{
-    background-color: darkgray;
     color: white;
     padding:1em 1.5em;
     text-decoration: none;
     text-transform: uppercase;
+    text-align: center;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0%;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 500px;
 }
