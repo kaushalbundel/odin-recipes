@@ -1,0 +1,21 @@
+* {
+    font-family:"Courier New", monospace;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight:600;
+    align-content: center;
+}
+
+.basecolor{
+    background-color:#ada8a4;
+}
+
+.links{
+    background-color: darkgray;
+    color: white;
+    padding:1em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
