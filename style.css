@@ -26,6 +26,9 @@ h1 {
 }
 
 .footer{
+    width: 40%;
+    margin: 70% auto;
+    text-align: center;
 }
 
 img {
