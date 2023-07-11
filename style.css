@@ -1,4 +1,4 @@
-p, ul, ol {
+p, ul, ol, a {
     font-family:"Courier New", monospace;
 }
 
@@ -26,8 +26,6 @@ h1 {
 }
 
 .footer{
-    position: absolute;
-    bottom: 0%;
 }
 
 img {
@@ -36,4 +34,10 @@ img {
     margin-right: auto;
     width: 500px;
     height: 500px;
+}
+
+.back {
+    display: block;
+    height: auto;
+    padding-left: 80%;
 }
