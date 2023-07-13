@@ -1,4 +1,4 @@
-p, ul, ol, a {
+p, ul, ol, a, footer {
     font-family:"Courier New", monospace;
 }
 
@@ -24,11 +24,22 @@ h1 {
     text-transform: uppercase;
     text-align: center;
 }
-
+/* Objective: To implement footer using flexbox
 .footer{
     width: 40%;
     margin: 70% auto;
     text-align: center;
+}
+*/
+
+.basecolor  {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    margin-top: auto;
 }
 
 img {
