@@ -32,14 +32,17 @@ h1 {
 }
 */
 
-.basecolor  {
+.basecolor {
+    border: 2px solid black;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
 .footer {
-    margin-top: auto;
+    border: 2px dashed gold;
+    flex: auto;
+    flex
 }
 
 img {
