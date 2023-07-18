@@ -33,16 +33,14 @@ h1 {
 */
 
 .basecolor {
-    border: 2px solid black;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
 .footer {
-    border: 2px dashed gold;
     flex: auto;
-    flex
+    text-align: center;
+    align-self: flex-end;
 }
 
 img {
@@ -51,10 +49,11 @@ img {
     margin-right: auto;
     width: 500px;
     height: 500px;
+    box-shadow: 5px 5px 5px grey;
 }
 
 .back {
     display: block;
     height: auto;
-    padding-left: 80%;
+    text-align: center;
 }
